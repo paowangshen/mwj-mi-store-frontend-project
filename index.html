@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images\logo-mi2.png" type="image/png">
+</head>
+
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="top-nav">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#">小米商城</a>
+                <a href="#">MIUI</a>
+                <a href="#">IoT</a>
+                <a href="#">云服务</a>
+                <a href="#">天星数科</a>
+                <a href="#">有品</a>
+                <a href="#">小爱开放平台</a>
+                <a href="#">企业团购</a>
+                <a href="#">资质证照</a>
+                <a href="#">协议规则</a>
+                <div class="download-app">
+                    <a href="#">下载app</a>
+                    <div class="qrcode-popup">
+                        <img src="./images/wx-img.png" alt="小米商城APP二维码">
+                        <p>小米商城APP</p>
+                    </div>
+                </div>
+                <a href="#">智能生活</a>
+                <a href="#">Select Location</a>
+            </div>
+            <div class="nav-right">
+                <a href="#">登录</a>
+                <a href="#">注册</a>
+                <a href="#">消息通知</a>
+                <a href="#" class="cart">🛒 购物车(0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主导航栏 -->
+    <nav class="main-nav">
+        <div class="main-nav-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images\logo-mi2.png" alt="小米" class="logo-image">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li>
+                    <a href="#">小米手机
+                        <div class="nav-bar-list">
+                            <div class="wrap">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <div class="nav-img-box">
+                                                <img src="./images/61454401f855cf5ed64747a6ac04bae5.jpg">
+                                            </div>
+                                            <p>Xiaomi Civi</p>
+                                            <p>2599元起</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="nav-img-box">
+                                                <img src="./images/61454401f855cf5ed64747a6ac04bae5.jpg">
+                                            </div>
+                                            <p>Xiaomi Civi</p>
+                                            <p>2599元起</p>
+                                        </a>
+                                    </li>
+
+
+
+                                    <li>
+                                        <a href="#">
+                                            <div class="nav-img-box">
+                                                <img src="./images/61454401f855cf5ed64747a6ac04bae5.jpg">
+                                            </div>
+                                            <p>Xiaomi Civi</p>
+                                            <p>2599元起</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="nav-img-box">
+                                                <img src="./images/61454401f855cf5ed64747a6ac04bae5.jpg">
+                                            </div>
+                                            <p>Xiaomi Civi</p>
+                                            <p>2599元起</p>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="#">
+                                            <div class="nav-img-box">
+                                                <img src="./images/61454401f855cf5ed64747a6ac04bae5.jpg">
+                                            </div>
+                                            <p>Xiaomi Civi</p>
+                                            <p>2599元起</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="nav-img-box">
+                                                <img src="./images/61454401f855cf5ed64747a6ac04bae5.jpg">
+                                            </div>
+                                            <p>Xiaomi Civi</p>
+                                            <p>2599元起</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">Redmin 红米</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">平板</a></li>
+                <li><a href="#">家电</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="小米手机">
+                <button>🔍</button>
+            </div>
+        </div>
+    </nav>
+    <!-- 主内容 -->
+    <main class="main-content">
+        <section class="banner">
+            <img src="./images\9b5f047d17df307b3f8eb4ed1b906093.jpg" alt="小米CIVI">
+        </section>
+
+        <!-- 左侧侧边栏（独立于图片） -->
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">手机</a><span></span></li>
+                <li><a href="#">电视</a><span></span></li>
+                <li><a href="#">出行 穿戴</a><span></span></li>
+                <li><a href="#">手机</a><span></span></li>
+                <li><a href="#">手机</a><span></span></li>
+                <li><a href="#">手机</a><span></span></li>
+                <li><a href="#">手机</a><span></span></li>
+                <li><a href="#">手机</a><span></span></li>
+                <li><a href="#">手机</a><span></span></li>
+            </ul>
+        </aside>
+        <div class="product-panel">
+            <!-- 手机商品列表（默认隐藏，悬停时显示） -->
+            <div class="product-list" id="phone-list">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./images\61454401f855cf5ed64747a6ac04bae5.jpg" alt="Xiaomi Civi">
+                            <p>Xiaomi Civi</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images\61454401f855cf5ed64747a6ac04bae5.jpg" alt="Xiaomi Civi">
+                            <p>Xiaomi Civi</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images\61454401f855cf5ed64747a6ac04bae5.jpg" alt="Xiaomi Civi">
+                            <p>Xiaomi Civi</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images\61454401f855cf5ed64747a6ac04bae5.jpg" alt="Xiaomi Civi">
+                            <p>Xiaomi Civi</p>
+                        </a>
+                    </li>
+                    <!-- 可以继续添加更多商品 -->
+                </ul>
+            </div>
+    </main>
+    <!-- 广告 -->
+    <div class="main-container">
+        <ul class="card-list">
+            <li>
+                <div class="card-icon">
+                    <img src="./images/43a3195efa6a3cc7662efed8e7abe8bf.png" alt="米粉卡图标">
+                </div>
+                <span>米粉卡</span>
+            </li>
+            <li>
+                <div class="card-icon">
+                    <img src="./images/43a3195efa6a3cc7662efed8e7abe8bf.png" alt="米粉卡图标">
+                </div>
+                <span>米粉卡</span>
+            </li>
+            <li>
+                <div class="card-icon">
+                    <img src="./images/43a3195efa6a3cc7662efed8e7abe8bf.png" alt="米粉卡图标">
+                </div>
+                <span>米粉卡</span>
+            </li>
+            <li>
+                <div class="card-icon">
+                    <img src="./images/43a3195efa6a3cc7662efed8e7abe8bf.png" alt="米粉卡图标">
+                </div>
+                <span>米粉卡</span>
+            </li>
+            <li>
+                <div class="card-icon">
+                    <img src="./images/43a3195efa6a3cc7662efed8e7abe8bf.png" alt="米粉卡图标">
+                </div>
+                <span>米粉卡</span>
+            </li>
+            <li>
+                <div class="card-icon">
+                    <img src="./images/43a3195efa6a3cc7662efed8e7abe8bf.png" alt="米粉卡图标">
+                </div>
+                <span>米粉卡</span>
+            </li>
+        </ul>
+        <div class="right-cards">
+            <div class="card-large">
+                <a>
+                    <img src="./images\d8a6d6d37904e22c72130e3e4ec79b41.jpg" alt="手机">
+                </a>
+            </div>
+            <div class="card-large">
+                <a>
+                    <img src="./images\d8a6d6d37904e22c72130e3e4ec79b41.jpg" alt="手机">
+                </a>
+            </div>
+            <div class="card-large">
+                <a>
+                    <img src="./images\d8a6d6d37904e22c72130e3e4ec79b41.jpg" alt="手机">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 主要内容 -->
+    <div class="container">
+        <div class="wrap">
+            <!-- 手机内容 -->
+            <div class="black-phone"></div>
+            <h2 class="title">手机
+                <a href="#" class="more">
+                    查看更多
+                </a>
+            </h2>
+            <div class="phone">
+                <div class="phone-left">
+                    <div class="phone-item">
+                        <a href="#">
+                            <img src="./images\c583f2edc613f1be20fa415910b13ce3.jpg">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="phone-right">
+                    <div class="phone-images">
+                        <a href="#">
+                            <img src="./images\cb554f30eaa0316b0a736c3d59f21584.png">
+                            <p class="goods-name">xiaomi CIVI</p>
+                            <p class="goods-desc">xiaomi CIVI</p>
+                            <p class="goods-price">2599元起 </p>
+                        </a>
+                    </div>
+                    <div class="phone-images">
+                        <a href="#">
+                            <img src="./images\cb554f30eaa0316b0a736c3d59f21584.png">
+                            <p class="goods-name">xiaomi CIVI</p>
+                            <p class="goods-desc">xiaomi CIVI</p>
+                            <p class="goods-price">2599元起 </p>
+                        </a>
+                    </div>
+                    <div class="phone-images">
+                        <a href="#">
+                            <img src="./images\cb554f30eaa0316b0a736c3d59f21584.png">
+                            <p class="goods-name">xiaomi CIVI</p>
+                            <p class="goods-desc">xiaomi CIVI</p>
+                            <p class="goods-price">2599元起 </p>
+                        </a>
+                    </div>
+                    <div class="phone-images">
+                        <a href="#">
+                            <img src="./images\cb554f30eaa0316b0a736c3d59f21584.png">
+                            <p class="goods-name">xiaomi CIVI</p>
+                            <p class="goods-desc">xiaomi CIVI</p>
+                            <p class="goods-price">2599元起 </p>
+                        </a>
+                    </div>
+                    <div class="phone-images">
+                        <a href="#">
+                            <img src="./images\cb554f30eaa0316b0a736c3d59f21584.png">
+                            <p class="goods-name">xiaomi CIVI</p>
+                            <p class="goods-desc">xiaomi CIVI</p>
+                            <p class="goods-price">2599元起 </p>
+                        </a>
+                    </div>
+                    <div class="phone-images">
+                        <a href="#">
+                            <img src="./images\cb554f30eaa0316b0a736c3d59f21584.png">
+                            <p class="goods-name">xiaomi CIVI</p>
+                            <p class="goods-desc">xiaomi CIVI</p>
+                            <p class="goods-price">2599元起 </p>
+                        </a>
+                    </div>
+                    <div class="phone-images">
+                        <a href="#">
+                            <img src="./images\cb554f30eaa0316b0a736c3d59f21584.png">
+                            <p class="goods-name">xiaomi CIVI</p>
+                            <p class="goods-desc">xiaomi CIVI</p>
+                            <p class="goods-price">2599元起 </p>
+                        </a>
+                    </div>
+                    <div class="phone-images">
+                        <a href="#">
+                            <img src="./images\cb554f30eaa0316b0a736c3d59f21584.png">
+                            <p class="goods-name">xiaomi CIVI</p>
+                            <p class="goods-desc">xiaomi CIVI</p>
+                            <p class="goods-price">2599元起 </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 家电内容 -->
+            <h2 class="title">家电
+                <div class="elc">
+                    <div class="small-elc">
+                        <a href="#"></a>
+                    </div>
+                    <div class="small-elc">
+                        <a href="#">
+                            <img src="./images\9d8674cd21c486feff5328772ab9cf01.jpg">
+                            <p class="goods-name">小米电视4A 70英寸 </p>
+                            <p class="goods-desc">大屏更享受大屏更享受大屏更享受</p>
+                            <p class="goods-price">
+                                3299yuan
+                                <del>3999元</del>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="small-elc">
+                        <a href="#">
+                            <img src="./images\9d8674cd21c486feff5328772ab9cf01.jpg">
+                            <p class="goods-name">小米电视4A 70英寸 </p>
+                            <p class="goods-desc">大屏更享受大屏更享受大屏更享受</p>
+                            <p class="goods-price">
+                                3299yuan
+                                <del>3999元</del>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="small-elc">
+                        <a href="#">
+                            <img src="./images\9d8674cd21c486feff5328772ab9cf01.jpg">
+                            <p class="goods-name">小米电视4A 70英寸 </p>
+                            <p class="goods-desc">大屏更享受大屏更享受大屏更享受</p>
+                            <p class="goods-price">
+                                3299yuan
+                                <del>3999元</del>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="small-elc">
+                        <a href="#">
+                            <img src="./images\9d8674cd21c486feff5328772ab9cf01.jpg">
+                            <p class="goods-name">小米电视4A 70英寸 </p>
+                            <p class="goods-desc">大屏更享受大屏更享受大屏更享受</p>
+                            <p class="goods-price">
+                                3299yuan
+                                <del>3999元</del>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="small-elc">
+                        <a href="#"></a>
+                    </div>
+                    <div class="small-elc">
+                        <a href="#">
+                            <img src="./images\9d8674cd21c486feff5328772ab9cf01.jpg">
+                            <p class="goods-name">小米电视4A 70英寸 </p>
+                            <p class="goods-desc">大屏更享受大屏更享受大屏更享受</p>
+                            <p class="goods-price">
+                                3299yuan
+                                <del>3999元</del>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="small-elc">
+                        <a href="#">
+                            <img src="./images\9d8674cd21c486feff5328772ab9cf01.jpg">
+                            <p class="goods-name">小米电视4A 70英寸 </p>
+                            <p class="goods-desc">大屏更享受大屏更享受大屏更享受</p>
+                            <p class="goods-price">
+                                3299yuan
+                                <del>3999元</del>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="small-elc">
+                        <a href="#">
+                            <img src="./images\9d8674cd21c486feff5328772ab9cf01.jpg">
+                            <p class="goods-name">小米电视4A 70英寸 </p>
+                            <p class="goods-desc">大屏更享受大屏更享受大屏更享受</p>
+                            <p class="goods-price">
+                                3299yuan
+                                <del>3999元</del>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="small-elcs">
+                        <div class="more-elc">
+                            <a href="#">
+                                <img src="./images\5f8be2fa1f60f81a0cfbfa3f6e0a5723.jpg">
+                                <p class="goods-name">Redmi MAX 86″ 超大屏电视 </p>
+                                <p class="goods-price">6299元</p>
+                            </a>
+                        </div>
+                        <div class="more-elc">
+                            <a href="#">
+                                <img src="./images\5f8be2fa1f60f81a0cfbfa3f6e0a5723.jpg">
+                                <p class="goods-name">Redmi MAX 86″ 超大屏电视 </p>
+                                <p class="goods-price">6299元</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--视频-->
+                <h2 class="title">
+                    视频
+                    <a href="#" class="more">查看更多</a>
+                </h2>
+                <div class="video">
+                    <div class="wrap">
+                        <div class="mi-video">
+                            <div class="mi-v">
+                                <a href="#">
+                                    <img src="./images\e74c4ff741bcdfc5b28a48a43e4edc6d.jpg">
+                                    <div class="play"></div>
+                                    <p class="video-name">2021年春季新品发布会第一场 </p>
+                                </a>
+                            </div>
+                            <div class="mi-v">
+                                <a href="#">
+                                    <img src="./images\e74c4ff741bcdfc5b28a48a43e4edc6d.jpg">
+                                    <div class="play"></div>
+                                    <p class="video-name">2021年春季新品发布会第一场 </p>
+                                </a>
+                            </div>
+                            <div class="mi-v">
+                                <a href="#">
+                                    <img src="./images\e74c4ff741bcdfc5b28a48a43e4edc6d.jpg">
+                                    <div class="play"></div>
+                                    <p class="video-name">2021年春季新品发布会第一场 </p>
+                                </a>
+                            </div>
+                            <div class="mi-v">
+                                <a href="#">
+                                    <img src="./images\e74c4ff741bcdfc5b28a48a43e4edc6d.jpg">
+                                    <div class="play"></div>
+                                    <p class="video-name">2021年春季新品发布会第一场 </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--页脚-->
+    <div class="footer">
+        <div class="wrap">
+            <div class="tools">
+                <div class="toolsbox">
+                    <a href="#">
+                        <img src="./images\95fbf0081a06eec7be4d35e277faeca0.png">
+                        预约维修服务
+                    </a>
+                </div>
+                <div class="toolsbox">
+                    <a href="#">
+                        <img src="./images\95fbf0081a06eec7be4d35e277faeca0.png">
+                        预约维修服务
+                    </a>
+                </div>
+                <div class="toolsbox">
+                    <a href="#">
+                        <img src="./images\95fbf0081a06eec7be4d35e277faeca0.png">
+                        预约维修服务
+                    </a>
+                </div>
+                <div class="toolsbox">
+                    <a href="#">
+                        <img src="./images\95fbf0081a06eec7be4d35e277faeca0.png">
+                        预约维修服务
+                    </a>
+                </div>
+                <div class="toolsbox">
+                    <a href="#">
+                        <img src="./images\95fbf0081a06eec7be4d35e277faeca0.png">
+                        预约维修服务
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="links-left">
+                    <ul>
+                        <li class="help">帮助中心</li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="help">帮助中心</li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="help">帮助中心</li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="help">帮助中心</li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="help">帮助中心</li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>帮助中心</li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                账户管理
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="links-right">
+                    <p class="tel">400-100-5678</p>
+                    <p class="time">8:00-18:00（仅收市话费） </p>
+                    <a href="#" class="kf">
+                        人工客服
+                    </a>
+                    <p class="follow">
+                        关注小米：
+                        <img src="./images\wb@2x.png" alt class="wx-img">
+                    </p>
+                </div>
+            </div>
+            <!-- 法律信息与认证区域 -->
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="./images/logo-mi2.png" alt="小米Logo">
+                </div>
+
+                <div class="footer-text-wrap">
+                    <!-- 顶部链接行（第二幅图里的小米商城/MIUI等） -->
+                    <div class="footer-top-links">
+                        <a href="#">小米商城</a>
+                        <span>|</span>
+                        <a href="#">MIUI</a>
+                        <span>|</span>
+                        <a href="#">米家</a>
+                        <span>|</span>
+                        <a href="#">米聊</a>
+                        <span>|</span>
+                        <a href="#">多看</a>
+                        <span>|</span>
+                        <a href="#">游戏</a>
+                        <span>|</span>
+                        <a href="#">政企服务</a>
+                        <span>|</span>
+                        <a href="#">小米天猫店</a>
+                        <span>|</span>
+                        <a href="#">小米集团隐私政策</a>
+                        <span>|</span>
+                        <a href="#">小米公司儿童信息保护规则</a>
+                        <span>|</span>
+                        <a href="#">小米商城隐私政策</a>
+                        <span>|</span>
+                        <a href="#">小米商城用户协议</a>
+                        <span>|</span>
+                        <a href="#">问题反馈</a>
+                        <span>|</span>
+                        <a href="#">Select Location</a>
+                    </div>
+
+                    <!-- 标语链接行（北京互联网法院等） -->
+                    <div class="footer-slogan-links">
+                        <a href="#">北京互联网法院法律服务工作站</a>
+                        <a href="#">中国消费者协会</a>
+                        <a href="#">北京市消费者协会</a>
+                    </div>
+
+                    <!-- 备案文字行 -->
+                    <div class="footer-legal">
+                        <p>© mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2020]0276-042号</p>
+                        <p>(京)网平台备字(2018)第00005号 互联网药品信息服务资格证 (京)-非经营性-2014-0090 营业执照 医疗器械质量公告</p>
+                        <p>增值电信业务许可证 网络食品经营备案 京食药网食备202010048 食品经营许可证</p>
+                        <p>违法和不良信息举报电话: 171-5104-4404 知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实测</p>
+                    </div>
+                    <div class="trust-logos">
+                        <img src="./images\truste.png" alt="可信认证">
+                        <img src="./images\truste.png" alt="可信认证">
+                        <img src="./images\truste.png" alt="可信认证">
+                        <img src="./images\truste.png" alt="可信认证">
+                        <img src="./images\truste.png" alt="可信认证">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+</div>
+</div>
+</body>
+
+</html>
